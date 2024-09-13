@@ -27,8 +27,9 @@ Execute the script by running the following command in your terminal or command 
 
 ```bash
 python your_script_name.py
-Replace your_script_name.py with the name of your Python file.
 ```
+Replace your_script_name.py with the name of your Python file.
+
 4. **Adjust Your Schedule**
 
 If you need to add or remove classes, modify the schedule lines in the script. For example, you can change:
