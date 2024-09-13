@@ -13,27 +13,29 @@ This Python script automates the process of opening Zoom links for your classes 
    pip install pywhatkit
 2. **Update the Script**
 
-Replace the placeholders in the script with your actual Zoom links. For example:
+Replace the placeholders in the script with your actual Zoom links. 
 
-python
+For example:
+```bash
 open_link('Zoom link')  # Replace 'Zoom link' with your actual Zoom link
+```
 Update the links and times according to your class schedule.
-Run the Script
+
+3. **Run the Script**
 
 Execute the script by running the following command in your terminal or command prompt:
 
-bash
-Copy code
+```bash
 python your_script_name.py
 Replace your_script_name.py with the name of your Python file.
-
-Adjust Your Schedule
+```
+4. **Adjust Your Schedule**
 
 If you need to add or remove classes, modify the schedule lines in the script. For example, you can change:
 
-python
-Copy code
+```bash
 schedule.every().day.at("08:00").do(classone)
+```
 To adjust the time and function according to your needs.
 
 Example Schedule
@@ -42,5 +44,5 @@ Here's a sample schedule you might have in your script:
 08:00 AM - First class link
 09:40 AM - Second class link
 11:20 AM - Third class link
-Note
+##Note
 Make sure your computer is on and connected to the internet when running the script, as it needs to access the web browser to open the Zoom links.
